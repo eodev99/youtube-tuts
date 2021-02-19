@@ -1,0 +1,52 @@
+
+
+html {
+  font-family: sans-serif;
+}
+
+.font-rem {
+  /* This text will change in size when the browsers' font size is changed */
+  font-size: 2rem;
+}
+.font-px {
+  /* This text won't */
+  font-size: 32px;
+}
+
+
+.padding-rem {
+  padding: 4rem;
+}
+
+.padding-px {
+  padding: 64px;
+}
+
+/* more styling */
+
+section {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section span {
+  margin-top: 24px;
+}
+section span h1 {
+  display: inline-block;
+  margin: 20px;
+}
+
+section span div {
+  display: inline-block;
+  margin: 20px;
+  background-color: red;
+}
+
+.slider-section {
+  margin-top: 64px;
+}
